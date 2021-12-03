@@ -38,7 +38,7 @@ Node js стэк при поддержке ffmpeg, coqui-ai, tesseract, natural,
 2) Запустить сервисы по адресу: speech/speetch.js natural/server.js, natural/server_audio.js, tesseract/server.js, server/server.js
 3) Дождаться окончания работы всех сервисов
 Результаты работы система складывает в папку data и её подпапки.
-Итоговые JSON файлы по видео лежат по адресу data/stemmed_texts
+Итоговые JSON файлы по видео лежат по адресу data/stemmed_texts (файл сожердит данные обьекты с информацией о морф. разборе, кол-ве слов и их повторения, стеммированные данные)
  
 
 
