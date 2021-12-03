@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "natural": "^5.1.11"
+    "natural": "^5.1.11",
+    "request": "^2.88.2"
   }
 }
