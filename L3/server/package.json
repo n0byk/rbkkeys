@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^0.24.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-extract-audio": "^1.0.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}

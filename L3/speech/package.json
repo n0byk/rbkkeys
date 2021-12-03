@@ -1,0 +1,19 @@
+{
+  "name": "stt-nodejs_wav",
+  "version": "1.0.0",
+  "description": "Simple audio processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon node ./speetch.js"
+  },
+  "dependencies": {
+    "argparse": "^1.0.10", 
+    "node-wav": "0.0.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "sox-stream": "^2.0.3",
+    "stt": "^1.0.0",
+    "util": "^0.11.1"
+  },
+  "license": "Public domain"
+}
