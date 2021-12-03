@@ -32,7 +32,12 @@ Node js стэк при поддержке ffmpeg, coqui-ai, tesseract, natural.
 
 Установка *cd L3/tesseract && npm i && node server.js*
 
-
+**Запуск распознавания видео:** 
+1) Положить видео по адресу server/video
+2) Запустить сервисы по адресу: speech/speetch.js natural/server.js, natural/server_audio.js, tesseract/server.js, server/server.js
+3) Дождаться окончания работы всех сервисов
+Результаты работы система складывает в папку data и её подпапки.
+Итоговые JSON файлы по видео лежат по адресу data/stemmed_texts
 **Очередность запуска сервисов по порядку** 
  1. natural 2 сервиса 
  2. speech - 1 сервис 
